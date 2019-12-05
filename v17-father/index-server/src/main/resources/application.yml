@@ -1,0 +1,30 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: index-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/,http://localhost:8866/eureka/
+
+feign:
+  compression:
+    request:
+      enabled: true
+    response: true
+  hystrix:
+    enabled: true
+product-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+

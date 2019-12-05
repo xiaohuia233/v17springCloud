@@ -1,0 +1,14 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: turbine-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/,http://localhost:8866/eureka/
+
+turbine:
+  #要监控的微服务列表，多个微服务用,隔开
+  appConfig: index-server
+  clusterNameExpression: "'default'"

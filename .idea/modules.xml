@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/v17-father/api-gateway-service/api-gateway-service.iml" filepath="$PROJECT_DIR$/v17-father/api-gateway-service/api-gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17-father/api-zuul-service/api-zuul-service.iml" filepath="$PROJECT_DIR$/v17-father/api-zuul-service/api-zuul-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17-father/common-server/common-server.iml" filepath="$PROJECT_DIR$/v17-father/common-server/common-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17-father/config-service/config-service.iml" filepath="$PROJECT_DIR$/v17-father/config-service/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17-father/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/v17-father/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17-father/hystrix_turbine/hystrix_turbine.iml" filepath="$PROJECT_DIR$/v17-father/hystrix_turbine/hystrix_turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17-father/index-server/index-server.iml" filepath="$PROJECT_DIR$/v17-father/index-server/index-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17-father/product-service/product-service.iml" filepath="$PROJECT_DIR$/v17-father/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17-father/v17-father.iml" filepath="$PROJECT_DIR$/v17-father/v17-father.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v17springCloud.iml" filepath="$PROJECT_DIR$/v17springCloud.iml" />
+    </modules>
+  </component>
+</project>

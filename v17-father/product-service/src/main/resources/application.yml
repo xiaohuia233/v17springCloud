@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: product-service
+---
+
+spring:
+  profiles: productService1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/,http://localhost:8866/eureka/
+server:
+  port: 9090
+---
+
+spring:
+  profiles: productService2
+server:
+  port: 9095
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/,http://localhost:8866/eureka/
